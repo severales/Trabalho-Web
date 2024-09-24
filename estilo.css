@@ -1,5 +1,5 @@
 body {
-    background-color: #999999;
+    background-color: wheat;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -13,12 +13,19 @@ body {
     width: 250px;
     height:320px;
     border-radius: 20px;
-    background-color: #CC0000;
+    background: linear-gradient(to bottom, saddlebrown, #733910);
     display: flex;
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 130px;    
+    margin-top: 130px;   
+    font-size: 18px;
+    color: whitesmoke; 
+    text-shadow: 
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
 }
 
 .loginForm, .CadForm, .UsuForm h2 {
@@ -30,6 +37,7 @@ body {
     border: none;
     width: 215px;
     height: 30px;
+    margin-top: auto;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
@@ -43,7 +51,7 @@ body {
     border-radius: 10px;
     font-size: 25px;
     justify-content: center;
-    margin-top: 18px;
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -58,7 +66,8 @@ body {
 }
 
 .loginForm button:hover {
-    background-color: #FF6666;
+    background-color: darkgray;
+    transform: scale(1.05);
 }
 
 
@@ -72,12 +81,18 @@ body {
     width: 250px;
     height:320px;
     border-radius: 20px;
-    background-color: #CC0000;
+    background: linear-gradient(to bottom, saddlebrown, #733910);
     display: flex;
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 130px;    
+    margin-top: 130px; 
+    color: whitesmoke; 
+    text-shadow: 
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;   
 }
 
 .CadForm input {
@@ -104,7 +119,8 @@ body {
 }
 
 .CadForm button:hover {
-    background-color: #FF6666;
+    background-color: darkgray;
+    transform: scale(1.05);
 }
 
 .usuario {
@@ -117,12 +133,18 @@ body {
     width: 250px;
     height:320px;
     border-radius: 20px;
-    background-color: #CC0000;
+    background: linear-gradient(to bottom, saddlebrown, #733910);
     display: flex;
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
     margin-top: 130px;    
+    color: whitesmoke; 
+    text-shadow: 
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
 }
 
 .UsuForm input {
@@ -149,63 +171,67 @@ body {
 }
 
 .UsuForm button:hover {
-    background-color: #FF6666;
+    background-color: darkgray;
+    transform: scale(1.05);
 }
 
 .RedUsuario button {
     width: 100px;
     height: 30px;
-    background-color: red;
+    background-color: saddlebrown;
     border-radius: 5px;
     top: 5px;
     right: 5px;
     position: absolute;
-    
 }
 
 .RedUsuario button:hover {
-    background-color: whitesmoke;
+    background-color: #733910;
+    transform: scale(1.05);
 }
 
 .RedUsuario a {
-    color:black;
+    color: whitesmoke;
+    text-decoration: none;
 }
 
 .RedLogin button {
     width: 130px;
     height: 30px;
-    background-color: red;
+    background-color: saddlebrown;
     border-radius: 5px;
     top: 5px;
     left: 5px;
     position: absolute;
-    
 }
 
 .RedLogin button:hover {
-    background-color: whitesmoke;
+    background-color: #733910;
+    transform: scale(1.05);
 }
 
 .RedLogin a {
-    color:black;
+    color:whitesmoke;
+    text-decoration: none;
 }
 
 .RedCadastro button {
-    width: 120px;
+    width: 105px;
     height: 38px;
-    background-color: red;
+    background-color: saddlebrown;
     border-radius: 5px;
     top: 5px;
     left: 5px;
     position: absolute;
-    
 }
 
 .RedCadastro button:hover {
-    background-color: whitesmoke;
+    background-color: #733910;
+    transform: scale(1.05);
 }
 
 .RedCadastro a {
-    color:black;
+    color:whitesmoke;
+    text-decoration: none;
 }
 
