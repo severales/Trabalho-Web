@@ -133,7 +133,7 @@ body {
     border-radius: 10px;
     font-size: 16px;
     margin-top: -12px;
-    margin-left: 11px;
+    margin-left: 12px;
 }
 
 .UsuForm button {
@@ -150,5 +150,62 @@ body {
 
 .UsuForm button:hover {
     background-color: #FF6666;
+}
+
+.RedUsuario button {
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    border-radius: 5px;
+    top: 5px;
+    right: 5px;
+    position: absolute;
+    
+}
+
+.RedUsuario button:hover {
+    background-color: whitesmoke;
+}
+
+.RedUsuario a {
+    color:black;
+}
+
+.RedLogin button {
+    width: 130px;
+    height: 30px;
+    background-color: red;
+    border-radius: 5px;
+    top: 5px;
+    left: 5px;
+    position: absolute;
+    
+}
+
+.RedLogin button:hover {
+    background-color: whitesmoke;
+}
+
+.RedLogin a {
+    color:black;
+}
+
+.RedCadastro button {
+    width: 120px;
+    height: 38px;
+    background-color: red;
+    border-radius: 5px;
+    top: 5px;
+    left: 5px;
+    position: absolute;
+    
+}
+
+.RedCadastro button:hover {
+    background-color: whitesmoke;
+}
+
+.RedCadastro a {
+    color:black;
 }
 
