@@ -1,6 +1,7 @@
 body {
     background-color: wheat;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
 
 .login{
@@ -8,18 +9,25 @@ body {
     justify-content: center;
     align-items: center;
 }
+.loginForm h2 {
+    font-size: 60px;
+}
 
 .loginForm {
-    width: 250px;
-    height:320px;
-    border-radius: 20px;
-    background: linear-gradient(to bottom, saddlebrown, #733910);
+    width: 480px;
+    height:630px;
+    border-radius: 40px;
+    background-color: #733910;
+    background-image: url(/imagens/Logo.jpeg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-position: center;
     display: flex;
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 130px;   
-    font-size: 18px;
+    margin-top: 120px;   
+    font-size: 25px;
     color: whitesmoke; 
     text-shadow: 
     -1px -1px 0 black,
@@ -35,36 +43,34 @@ body {
 .loginForm input {
     background-color: white;
     border: none;
-    width: 215px;
-    height: 30px;
-    margin-top: auto;
+    width: 428px;
+    height: 50px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
-    font-size: 16px;
+    font-size: 30px;
 }
 
 .entrar {
-    width: 180px;
-    height: 50px;
+    width: 340px;
+    height: 100px;
     background-color: white;
-    border-radius: 10px;
-    font-size: 25px;
+    border-radius: 30px;
+    font-size: 55px;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 45px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .recupSenha {
-    width: 135px;
-    height: 20px;
+    width: 250px;
+    height: 35px;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 16px;
-    border: 1px;
+    margin-top: 45px;
     border-color: #733910;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 
 .loginForm button:hover {
@@ -78,17 +84,26 @@ body {
     align-items: center;
 }
 
+.CadForm h2{
+    font-size: 60px;
+
+}
 .CadForm {
-    width: 250px;
-    height:320px;
-    border-radius: 20px;
-    background: linear-gradient(to bottom, saddlebrown, #733910);
+    width: 480px;
+    height:650px;
+    border-radius: 30px;
+    background-color: #733910;
+    background-image: url(/imagens/Logo.jpeg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-position: center;
     display: flex;
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
     margin-top: 130px; 
     color: whitesmoke; 
+    font-size: 25px;
     text-shadow: 
     -1px -1px 0 black,
     1px -1px 0 black,
@@ -99,25 +114,26 @@ body {
 .CadForm input {
     background-color: white;
     border: none;
-    width: 220px;
-    height: 30px;
+    width: 430px;
+    height: 45px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
-    font-size: 16px;
+    font-size: 30px;
     margin-top: -12px;
 
 }
 .cadastrar {
-    width: 180px;
-    height: 50px;
+    width: 340px;
+    height: 100px;
     background-color: white;
-    border-radius: 10px;
-    font-size: 25px;
+    border-radius: 30px;
+    font-size: 50px;
     justify-content: center;
-    margin-top: 8px;
+    margin-top: auto;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 75px;
 }
 
 .CadForm button:hover {
@@ -131,17 +147,25 @@ body {
     align-items: center;
 }
 
+.UsuForm h2 {
+    font-size: 60px;
+}
 .UsuForm {
-    width: 250px;
-    height:320px;
-    border-radius: 20px;
-    background: linear-gradient(to bottom, saddlebrown, #733910);
+    width: 480px;
+    height:650px;
+    border-radius: 40px;
+    background-color: #733910;
+    background-image: url(/imagens/Logo.jpeg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-position: center;
     display: flex;
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
     margin-top: 130px;    
     color: whitesmoke; 
+    font-size: 25px;
     text-shadow: 
     -1px -1px 0 black,
     1px -1px 0 black,
@@ -152,22 +176,22 @@ body {
 .UsuForm input {
     background-color: white;
     border: none;
-    width: 220px;
-    height: 30px;
+    width: 430px;
+    height: 45px;
     border-radius: 10px;
-    font-size: 16px;
-    margin-top: -12px;
-    margin-left: 12px;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-right: 10px;
 }
 
 .UsuForm button {
-    width: 180px;
-    height: 50px;
+    width: 340px;
+    height: 100px;
     background-color: white;
-    border-radius: 10px;
-    font-size: 25px;
+    border-radius: 30px;
+    font-size: 50px;
     justify-content: center;
-    margin-top: 8px;
+    margin-top: 35px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -178,8 +202,8 @@ body {
 }
 
 .RedUsuario button {
-    width: 100px;
-    height: 30px;
+    width: 150px;
+    height: 45px;
     background-color: saddlebrown;
     border-radius: 5px;
     top: 5px;
@@ -198,8 +222,8 @@ body {
 }
 
 .RedLogin button {
-    width: 130px;
-    height: 30px;
+    width: 190px;
+    height: 50px;
     background-color: saddlebrown;
     border-radius: 5px;
     top: 5px;
@@ -215,11 +239,12 @@ body {
 .RedLogin a {
     color:whitesmoke;
     text-decoration: none;
+    font-size: 20px;
 }
 
 .RedCadastro button {
-    width: 105px;
-    height: 38px;
+    width: 170px;
+    height: 50px;
     background-color: saddlebrown;
     border-radius: 5px;
     top: 5px;
@@ -235,6 +260,7 @@ body {
 .RedCadastro a {
     color:whitesmoke;
     text-decoration: none;
+    font-size: 20px;
 }
 
 
