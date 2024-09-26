@@ -3,7 +3,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
-    flex-direction: column;
+    text-align: center;
     
 }
 
@@ -12,18 +12,17 @@ body {
     height:80px; 
     width: 100%; 
 }
-
+ 
 .R2 {
     background-color: saddlebrown;
     height: 80px;
     width: 100%;
-    margin-top: 1000px;
+    margin-top: 400px;
 }
 
 .cacete1 {
     width: 220px;
     height: 60px;
-
 }
 
 .CaceteImg {
@@ -35,7 +34,6 @@ body {
     height: 60px;
     margin-top: 10px;
     margin-left: 5px;
-    
 }
 
 .usuarioImg {
@@ -49,7 +47,67 @@ body {
 .usuario {
     height: 100%;
     width: 100%;
+}
+
+/* Parte do cardapio */ 
+.cardapio {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.cardapio img {
+    height: auto;
+    width: 420px;
+    box-shadow: 0px 4px 8px black;
+    border-radius: 30px;
     
+}
+
+.Titulo {
+    justify-content: center;
+    font-size: 55px;
+    font-family: cursive;
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Fundo escuro */
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup:target {
+    display: flex;
+}
+
+.ContPopup {
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.popup h2 {
+    margin-top: 0;
+}
+
+.fechar {
+    display: incline-block;
+    margin-top: 25px;
+    padding: 10px 20px;
+    background-color: saddlebrown;
+    color: whitesmoke;
+    border-radius: 12px;
+    text-decoration: none;
 }
 
 
