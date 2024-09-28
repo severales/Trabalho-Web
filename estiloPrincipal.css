@@ -71,20 +71,20 @@ body {
     font-family: cursive;
 }
 
-.popup {
+.popUp {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.8); /* Fundo escuro */
+    background-color: rgba(0, 0, 0, 0.8); 
     display: none;
     justify-content: center;
     align-items: center;
 }
 
-.popup:target {
-    display: flex;
+.popUp:target {
+    display: flex; 
 }
 
 .ContPopup {
@@ -96,18 +96,18 @@ body {
     text-align: center;
 }
 
-.popup h2 {
+.popUp h2 {
     margin-top: 0;
 }
 
 .fechar {
-    display: incline-block;
-    margin-top: 25px;
+    display: inline-block;
+    margin-top: 20px;
     padding: 10px 20px;
-    background-color: saddlebrown;
-    color: whitesmoke;
-    border-radius: 12px;
+    background-color: #8B4513;
+    color: white;
     text-decoration: none;
+    border-radius: 5px;
 }
 
 
