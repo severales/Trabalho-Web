@@ -9,13 +9,16 @@ Eu comecei a desenvolver o site com a ideia de ser para uma padaria, mas depois 
 
 ## Funcionamento do Site
 
-Fiz a parte de Login e Cadastro de Cliente terem um botão que redirecione de uma aba para outra, porém o Login de Usuário fiz separado pois é algo que apenas coordenadores tem acesso, os botões foram feitos com href, tanto o Login/Cadastro de Clientes tanto de Usuário não funcionam ainda.
+Fiz a parte de Login e Cadastro de Cliente terem um botão que redirecione de uma aba para outra, porém o Login de Usuário(Usuario) fiz separado pois é algo que apenas coordenadores tem acesso, os botões foram feitos com href, tanto o Login/Cadastro de Clientes tanto de Usuário não funcionam ainda.
 
-Dentro da parte principal do site, tem uma aba de pesquisa em cima, com um botão para levar para a parte de Login de Cliente e uma das funcionalidade exclusiva, que ainda não funciona sem o JavaScript, que o objetivo é uma vez por semana mostrar uma receita diferente.
+Dentro da parte principal do site, tem uma aba de pesquisa em cima, com um botão para levar para a parte de Login de Cliente e uma das funcionalidade exclusiva, que ainda não funciona sem o JavaScript, que o objetivo é uma vez por semana trocar para uma receita diferente.
 
 A outra funcionalidade exclusiva do meu site é os "pop-ups" ao clicar nas imagens da parte de baixo do site. Ao clicar, abre um "pop-up" improvisado, usando display:none e o :target.
 
-Ao clicar na imagem é redirecionado para o pop-up, porém ele só fecha ao clicar no botão de fechar, não sendo possivel sair de lá clicando na parte de fora ou de outra forma, a mesma coisa vale para a receita da semana.
+Ao clicar na imagem é redirecionado para o pop-up, mostrando a receita do item que o cliente cliclou, porém ele só fecha ao clicar no botão de fechar, não sendo possivel sair de lá clicando na parte de fora ou de outra forma, a mesma coisa vale para a receita da semana.
+
+Para simular o site, usei a extensão Live Server do Visual Studio Code para auxiliar no projeto, toda a visualização foi usando ele.
+
 
 
 
